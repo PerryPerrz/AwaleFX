@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ia.awalefx.ControllerJeu">
+    <children>
+        <Circle fx:id="c4" fill="#1f93ff00" layoutX="335.0" layoutY="235.0" onMouseClicked="#c4Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fx:id="c2" fill="#1f93ff00" layoutX="195.0" layoutY="235.0" onMouseClicked="#c2Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fx:id="c3" fill="#1f93ff00" layoutX="265.0" layoutY="235.0" onMouseClicked="#c3Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fx:id="c5" fill="#1f93ff00" layoutX="405.0" layoutY="235.0" onMouseClicked="#c5Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fx:id="c6" fill="#1f93ff00" layoutX="475.0" layoutY="235.0" onMouseClicked="#c6Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#8921ff00" layoutX="35.0" layoutY="365.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fx:id="c1" fill="#1f93ff00" layoutX="125.0" layoutY="235.0" onMouseClicked="#c1Clicked" radius="35.0"
+                stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="335.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="195.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="265.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="405.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="475.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="125.0" layoutY="165.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Circle fill="#1f93ff00" layoutX="565.0" layoutY="35.0" radius="35.0" stroke="BLACK" strokeType="INSIDE"/>
+        <Text fx:id="nb6" layoutX="121.0" layoutY="239.0" onMouseClicked="#c1Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb7" layoutX="191.0" layoutY="239.0" onMouseClicked="#c2Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb8" layoutX="261.0" layoutY="239.0" onMouseClicked="#c3Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb9" layoutX="331.0" layoutY="239.0" onMouseClicked="#c4Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb10" layoutX="401.0" layoutY="240.0" onMouseClicked="#c5Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb11" layoutX="471.0" layoutY="239.0" onMouseClicked="#c6Clicked" strokeType="OUTSIDE"
+              strokeWidth="0.0" text="0"/>
+        <Text fx:id="g1" layoutX="31.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="g2" layoutX="561.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb0" layoutX="121.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb1" layoutX="191.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb2" layoutX="261.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb3" layoutX="331.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb4" layoutX="401.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="nb5" layoutX="471.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0"/>
+        <Text fx:id="affiche" layoutX="86.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="L'IA à gagné ! Les robots domineront les Hommes !" textAlignment="CENTER"
+              wrappingWidth="427.78173828125"/>
+        <TextField fx:id="profIA" layoutX="194.0" layoutY="318.0" prefHeight="24.0" prefWidth="212.0"
+                   promptText="Indiquez la profondeur de l'IA"/>
+        <Button layoutX="260.0" layoutY="352.0" mnemonicParsing="false" onAction="#apply" text="Appliquer"/>
+    </children>
+</Pane>
